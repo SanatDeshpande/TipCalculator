@@ -14,6 +14,7 @@
 		D85FD3611E1ECB280071F10E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85FD35F1E1ECB280071F10E /* LaunchScreen.storyboard */; };
 		D85FD36C1E1ECB280071F10E /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD36B1E1ECB280071F10E /* TipCalculatorTests.swift */; };
 		D85FD3771E1ECB280071F10E /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD3761E1ECB280071F10E /* TipCalculatorUITests.swift */; };
+		D85FD38F1E1EDDDC0071F10E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD38E1E1EDDDC0071F10E /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D85FD3721E1ECB280071F10E /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85FD3761E1ECB280071F10E /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		D85FD3781E1ECB280071F10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85FD38E1E1EDDDC0071F10E /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D85FD35D1E1ECB280071F10E /* Assets.xcassets */,
 				D85FD35F1E1ECB280071F10E /* LaunchScreen.storyboard */,
 				D85FD3621E1ECB280071F10E /* Info.plist */,
+				D85FD38E1E1EDDDC0071F10E /* SettingsController.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85FD38F1E1EDDDC0071F10E /* SettingsController.swift in Sources */,
 				D85FD3591E1ECB280071F10E /* ViewController.swift in Sources */,
 				D85FD3571E1ECB280071F10E /* AppDelegate.swift in Sources */,
 			);
