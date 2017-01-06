@@ -33,7 +33,7 @@ class SettingsController: UIViewController {
     
     @IBAction func changeAmountOne(sender: AnyObject) {
         let defaults = NSUserDefaults.standardUserDefaults()
-        let amt = (Double(amount1.text!)!)/100
+        let amt = (Double(amount1.text!) ?? 0.0)/100
         defaults.setDouble(amt, forKey: "amountOne")
         parentView.percentages[0] = amt
         parentView.loadView()
@@ -42,7 +42,7 @@ class SettingsController: UIViewController {
    
     @IBAction func changeAmountTwo(sender: AnyObject) {
         let defaults = NSUserDefaults.standardUserDefaults()
-        let amt = (Double(amount2.text!)!)/100
+        let amt = (Double(amount2.text!) ?? 0.0)/100
         defaults.setDouble(amt, forKey: "amountTwo")
         parentView.percentages[1] = amt
         parentView.loadView()
@@ -52,7 +52,7 @@ class SettingsController: UIViewController {
     
     @IBAction func changeAmountThree(sender: AnyObject) {
         let defaults = NSUserDefaults.standardUserDefaults()
-        let amt = (Double(amount3.text!)!)/100
+        let amt = (Double(amount3.text!) ?? 0.0)/100
         defaults.setDouble(amt, forKey: "amountThree")
         parentView.percentages[2] = amt
         parentView.loadView()
